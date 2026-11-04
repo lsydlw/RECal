@@ -1,0 +1,4 @@
+-r requirements.txt
+timm==1.0.19
+mamba-ssm==2.2.3.post2
+causal-conv1d==1.5.2

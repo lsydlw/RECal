@@ -1,0 +1,17 @@
+name: recal
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26.4
+  - pandas=2.3.3
+  - scipy=1.15.3
+  - scikit-learn=1.7.2
+  - tqdm=4.68.2
+  - pytorch=2.6
+  - pytorch-cuda=12.6
+  - pip:
+      - timm==1.0.19
